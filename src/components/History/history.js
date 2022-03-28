@@ -79,7 +79,7 @@ import './history.css'
                 </div>
             </div>
         </div>
-        <div class="panel-footer">Tổng chi tiêu của bạn:  <b>43,350,000 VND</b></div>
+        <div class="panel-footer">Tổng chi tiêu của bạn:  <b>43,350,000 VND</b> <br/> Tổng Điểm thưởng:  <b>4,999</b></div>
     </div>
 </div>
       </div>
