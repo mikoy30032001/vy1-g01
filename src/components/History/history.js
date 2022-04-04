@@ -9,13 +9,31 @@ import './history.css'
 <div class="container bootdey">
     <div class="panel panel-default panel-order">
         <div class="panel-heading">
-            <strong>Lịch sử giao dịch</strong>
+            <strong>Lịch sử giao dịch</strong> 
+            <h1 class="container">Lịch sử giao dịch
+
+            </h1>
             <div class="btn-group pull-right">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">Filter history <i class="fa fa-filter"></i></button>
+                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">Lọc Theo tình trạng <i class="fa fa-filter"></i></button>
                     <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a href="#">Approved orders</a></li>
-                        <li><a href="#">Pending orders</a></li>
+                        <li><a href="#"><label class="label label-success">Đã Thanh toán</label></a></li>
+                        <li><a href="#"><label class="label label-danger">Đã huỷ</label></a></li>
+                        <li><a href="#"><label class="label label-info">Đã hoàn tiền</label></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="btn-group pull-right">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">Lọc theo dịch vụ <i class="fa fa-filter"></i></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#"><label class="label label-info">Máy bay</label></a></li>
+                        <li><a href="#"><label class="label label-info">Xe khách</label></a></li>    
+                        <li><a href="#"><label class="label label-info">Khách sạn</label></a></li>    
+                        <li><a href="#"><label class="label label-info">Tour du lịch</label></a></li>                           
+                        <li><a href="#"><label class="label label-info">Voucher</label></a></li>    
+
                     </ul>
                 </div>
             </div>

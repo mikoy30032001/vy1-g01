@@ -23,7 +23,7 @@ class Header extends Component {
                     <li><a href="#"><i class="fa fa-fw fa-tag"></i> <span class="badge">Vé máy bay</span> Giảm 20% khi đặt vé với Vietnam Airline</a></li>
                     <li><a href="#"><i class="fa fa-fw fa-tag"></i> <span class="badge">Vé máy bay</span> Giảm 20% khi đặt vé với Vietnam Airline</a></li>
                     <li><a href="#"><i class="fa fa-fw fa-tag"></i> <span class="badge">Vé máy bay</span> Giảm 20% khi đặt vé với Vietnam Airline</a></li>
-                    <li><a href="#"><i class="fa fa-fw fa-tag"></i> <span class="badge">Vé máy bay</span> Giảm 20% khi đặt vé với Vietnam Airline</a></li>               
+                    <li><a href="#"><i class="fa fa-fw fa-tag"></i> <span class="badge">Vé máy bay</span> Giảm 20% khi đặt vé với Vietnam Airline</a></li>  
                   </ul>
                 </li>
                 
@@ -37,10 +37,15 @@ class Header extends Component {
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dương Tấn Tài <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Thông tin tài khoản </a></li>
-                   
+                    
+                    <li><a href="/chinh-sua-ho-so"><i class="fa fa-user" aria-hidden="true"></i> Chỉnh sửa hồ sơ </a></li>
+                    <li><a href="#"><i class="fa fa-renren" aria-hidden="true"></i> Điểm thưởng của tôi </a></li>                  
+                    <li><a href="#"><i class="fa fa-history" aria-hidden="true"></i> Danh sách giao dịch </a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Đăng xuất</a></li>
+                    <li><a href="#"><i class="fa fa-history" aria-hidden="true"></i> Đặt chổ của tôi </a></li>                    
+                    <li><a href="#"> <i class="fa fa-cc-discover" aria-hidden="true"></i>Khuyến mãi </a></li>                    
+                    
+                    <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Đăng xuất</a></li>
                   </ul>
                 </li>
               </ul>

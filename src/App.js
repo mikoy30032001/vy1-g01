@@ -4,8 +4,9 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/navbar/header.js';
 import Footer from './components/navbar/footer.js';
 import Content from './components/Account/content.js';
-import giftvoucher from './components/giftvoucher/voucher.js';
+import Giftvoucher from './components/giftvoucher/voucher.js';
 import  History  from './components/History/history.js';
+import Home from './components/Home/home.js'
 import './App.css';
 
 
@@ -17,8 +18,9 @@ class App extends Component{
         <Header/>
         
        <Routes>
-       <Route exact path="/" element= {<Content/>}/>
-             <Route path="/voucher" element = {<giftvoucher/>}/>
+         <Route exact path="/" element ={<Home/>}/>
+       <Route exact path="/chinh-sua-ho-so" element= {<Content/>}/>
+             <Route path="/voucher" element = {<Giftvoucher/>}/>
              <Route path="/history" element = {<History/>}/>
        </Routes>
         <Footer/>
