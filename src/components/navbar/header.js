@@ -49,9 +49,7 @@ class Header extends Component {
                   </ul>
                 </li>
               </ul>
-              <form class="navbar-form navbar-right search-form" role="search">
-                <input type="text" class="form-control" placeholder="Search" />
-              </form>
+              
             </div>
           </div>
         </nav>

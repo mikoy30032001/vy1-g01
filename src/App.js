@@ -7,6 +7,7 @@ import Content from './components/Account/content.js';
 import Giftvoucher from './components/giftvoucher/voucher.js';
 import  History  from './components/History/history.js';
 import Home from './components/Home/home.js'
+import PartnerOverview from './components/partner-page/Home.js'
 import './App.css';
 
 
@@ -22,6 +23,7 @@ class App extends Component{
        <Route exact path="/chinh-sua-ho-so" element= {<Content/>}/>
              <Route path="/voucher" element = {<Giftvoucher/>}/>
              <Route path="/history" element = {<History/>}/>
+             <Route exact path="/partner/home" element ={<PartnerOverview/>}/>
        </Routes>
         <Footer/>
       </div>
