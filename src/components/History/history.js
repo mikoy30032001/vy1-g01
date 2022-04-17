@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import './history.css'
+import Leftbar from './../navbar/leftbar'
+//import './history.css'
 
  class history extends Component {
   render() {
     return (
-      <div>
+      
+    <div class="container-content">
         <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
 <div class="container bootdey">
     <div class="panel panel-default panel-order">

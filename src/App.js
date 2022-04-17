@@ -5,7 +5,7 @@ import Header from './components/navbar/header.js';
 import Footer from './components/navbar/footer.js';
 import Content from './components/Account/content.js';
 import Giftvoucher from './components/giftvoucher/voucher.js';
-import  History  from './components/History/history.js';
+import  History  from './components/History/history2.js';
 import Home from './components/Home/home.js'
 import PartnerOverview from './components/partner-page/Home.js'
 import './App.css';

@@ -3,62 +3,75 @@ import React, {Component} from 'react';
 class SectionContact extends Component {
     render() {
         return (
-            <section id="footer">
-		<div class="container">
-			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-					</ul>
+			//<!-- Footer Area Start -->
+			<section className="footer-Content">
+			<div className="container">
+			  <div className="row">
+				<div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+				  <div className="textwidget">
+					<p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive.</p>
+				  </div>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+				<div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+				  <div className="widget">
+					<h3 className="block-title">Create a Free Account</h3>
+					<ul className="menu">
+					  <li><a href="#">Sign In</a></li>
+					  <li><a href="#">About Us</a></li>
+					  <li><a href="#">Pricing</a></li>
+					  <li><a href="#">Jobs</a></li>
 					</ul>
+				  </div>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+				<div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+				  <div className="widget">
+					<h3 className="block-title">Resource</h3>
+					<ul className="menu">
+					  <li><a href="#">Comunnity</a></li>
+					  <li><a href="#">Become a Partner</a></li>
+					  <li><a href="#">Our Technology</a></li>
+					  <li><a href="#">Documentation</a></li>
 					</ul>
+				  </div>
 				</div>
+				<div className="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+				  <div className="widget">
+					<h3 className="block-title">Support</h3>
+					<ul className="menu">
+					  <li><a href="#">Terms &amp; Condition</a></li>
+					  <li><a href="#">Contact Us</a></li>
+					  <li><a href="#">Privacy Policy</a></li>
+					  <li><a href="#">Help</a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
-					</ul>
+			<div className="copyright">
+			  <div className="container">
+				<div className="row">
+				  <div className="col-md-12">
+					<div className="site-info float-left">
+					  <p>© 2020 - Designed by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
+					</div>              
+					<div className="float-right">  
+					  <ul className="footer-social">
+						<li><a className="facebook" href="#"><i className="lni-facebook-filled" /></a></li>
+						<li><a className="twitter" href="#"><i className="lni-twitter-filled" /></a></li>
+						<li><a className="linkedin" href="#"><i className="lni-linkedin-fill" /></a></li>
+						<li><a className="google-plus" href="#"><i className="lni-google-plus" /></a></li>
+					  </ul> 
+					</div>
+				  </div>
 				</div>
-				<hr/>
-			</div>	
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://github.com/dttaivlo1/vy1-g01" target="_blank">VY1-G01</a></p>
-				</div>
-				<hr/>
-			</div>	
-		</div>
-	</section>
+			  </div>
+			</div>
+		  </section>
+			
+			
         );
     }
+	
 }
 
 export default SectionContact;

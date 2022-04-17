@@ -40,4 +40,8 @@ body{
     }
     .panel-order .panel-deading {
         margin-bottom: 0;
+    }
+    .container-content {
+        margin-top:100px;
+        background-color:red;
     }                    
