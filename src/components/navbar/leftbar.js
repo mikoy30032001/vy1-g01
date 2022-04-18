@@ -1,37 +1,41 @@
 import React, { Component } from 'react'
 import './style/style.css';
-import './style/leftbar'
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-  }
+const chuyendi = (e) =>{
+ var a = document.getElementsByClassName('list-group-item list-group-item-action');
+ console.log(a);
+}
 export default class leftbar extends Component {
   render() {
     return (
-      <div>
-          <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+        
+              <div className="box-left">
+                <div className="container">
+                  <div className="row">
+                    <div className="col" >
+                       <h6 className="text-muted" id="div-name">Duong Tan Tai</h6> 
+                    <div className="list-group">
+                      <a href="#" className="list-group-item list-group-item-action active" id="item-point" onClick={chuyendi}><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/5/5aee8aca6897d279a7cb105f7e167754.svg" />Điểm thưởng của tôi</a>
+                      <a href="#" className="list-group-item list-group-item-action"id = "item-card">Thẻ của tôi</a>
+                      <br/>
+                      <a href="#" className="list-group-item list-group-item-action disabled">Đặt chỗ của tôi</a>
+                      <a href="history" className="list-group-item list-group-item-action disabled" id="history-title">Danh sách giao dịch</a>
+                      <a href="#" className="list-group-item list-group-item-action disabled">Thông báo giá vé</a>
+                      <a href="#" className="list-group-item list-group-item-action disabled">Danh sách hành khách</a>
+                      <br/>
+                      <a href="#" className="list-group-item list-group-item-action disabled">Tài khoản</a>
+                      </div>
 </div>
-
-<div id="main">
-  <h2>Sidenav Push Example</h2>
-  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 </div>
+</div>
+      </div>
+     
+      
+    
 
 
    
 
-      </div>
+    
     )
   }
 }

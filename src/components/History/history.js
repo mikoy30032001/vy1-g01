@@ -6,103 +6,60 @@ import Leftbar from './../navbar/leftbar'
   render() {
     return (
       
-    <div class="container-content">
-        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
-<div class="container bootdey">
-    <div class="panel panel-default panel-order">
-        <div class="panel-heading">
-            <strong>Lịch sử giao dịch</strong> 
-            <h1 class="container">Lịch sử giao dịch
-
-            </h1>
-            <div class="btn-group pull-right">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">Lọc Theo tình trạng <i class="fa fa-filter"></i></button>
-                    <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a href="#"><label class="label label-success">Đã Thanh toán</label></a></li>
-                        <li><a href="#"><label class="label label-danger">Đã huỷ</label></a></li>
-                        <li><a href="#"><label class="label label-info">Đã hoàn tiền</label></a></li>
+        <div id="content" class="col">
+        <h2 class="title">Lịch sử giao dịch</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <td class="text-center">Dịch vụ</td>
+                        <td class="text-left">Sản phẩm</td>
+                        <td class="text-center">Mã giao dịch</td>
+                        <td class="text-center">Trạng Thái</td>
+                        <td class="text-center">Ngày</td>
+                        <td class="text-right">Tổng tiền</td>
                         
-                    </ul>
-                </div>
-            </div>
-            <div class="btn-group pull-right">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">Lọc theo dịch vụ <i class="fa fa-filter"></i></button>
-                    <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a href="#"><label class="label label-info">Máy bay</label></a></li>
-                        <li><a href="#"><label class="label label-info">Xe khách</label></a></li>    
-                        <li><a href="#"><label class="label label-info">Khách sạn</label></a></li>    
-                        <li><a href="#"><label class="label label-info">Tour du lịch</label></a></li>                           
-                        <li><a href="#"><label class="label label-info">Voucher</label></a></li>    
-
-                    </ul>
-                </div>
-            </div>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">
+                        Khách sạn    
+                        </td>
+                        <td class="text-left"><a href="#">Xitefun Causal Wear Fancy Shoes</a>
+                        </td>
+                        <td class="text-center">#1565245</td>
+                        <td class="text-center">Shipped</td>
+                        <td class="text-center">20/06/2016</td>
+                        <td class="text-right">$133.20</td>  
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                         Du Lịch   
+                        </td>
+                        <td class="text-left"><a href="#">Xitefun Causal Wear Fancy Shoes</a>
+                        </td>
+                        <td class="text-center">#1565245</td>
+                        <td class="text-center">Thành công</td>
+                        <td class="text-center">20/06/2016</td>
+                        <td class="text-right">$133.20</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            Đưa đón sân bay
+                        </td>
+                        <td class="text-left"><a href="#">Xitefun Causal Wear Fancy Shoes</a>
+                        </td>
+                        <td class="text-center">#1565245</td>
+                        <td class="text-center">Thành công</td>
+                        <td class="text-center">20/06/2016</td>
+                        <td class="text-right">$133.20</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
-        <div class="panel-body">
-            <div class="row">
-                
-                <div class="col-md-11">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="pull-right"><label class="label label-danger">Đã huỷ</label><label class="label label-info">Đã hoàn tiền</label></div>
-                            <span><strong>Bonita Grand Hotel </strong></span> <span class="label label-info">Khách sạn</span><br />
-                           Điểm thưởng : Không có,<br/> Tổng tiền: 1,200,000 VND <br /> 
-                        </div>
-                        <div class="col-md-12">Kết thúc vào lúc: 06/03/2022 </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                
-                <div class="col-md-11">
-                    <div class="row">
-                    <div class="col-md-12">
-                            <div class="pull-right"><label class="label label-success">Đã Thanh toán</label></div>
-                            <span><strong>VinPearl Hạ Long </strong></span> <span class="label label-info">Tour du lịch</span><br />
-                           Điểm thưởng : 300,<br/> Tổng tiền: 25,200,000 VND <br /> 
-                        </div>
-                        <div class="col-md-12">Kết thúc vào lúc: 11/01/2022 </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-              
-                <div class="col-md-11">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="pull-right"><label class="label label-success">Đã Thanh toán</label></div>
-                            <span><strong>First-Class VietnamAirline HNI - SGN </strong></span> <span class="label label-info">Vé máy bay</span><br />
-                           Điểm thưởng : 150,<br/> Tổng tiền: 13,000,000 VND <br /> 
-                        </div>
-                        <div class="col-md-12">Kết thúc vào lúc: 06/03/2022 </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                
-                <div class="col-md-11">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="pull-right"><label class="label label-info">pending</label></div>
-                            <span><strong>Order name</strong></span> <span class="label label-info">group name</span><br />
-                            Quantity : 4, cost: $523.13<br />
-                            
-                        </div>
-                        <div class="col-md-12">Kết thúc vào lúc: 06/03/2022 </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="panel-footer">Tổng chi tiêu của bạn:  <b>43,350,000 VND</b> <br/> Tổng Điểm thưởng:  <b>4,999</b></div>
     </div>
-</div>
-      </div>
     )
   }
 }

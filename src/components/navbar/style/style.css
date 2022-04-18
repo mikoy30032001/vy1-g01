@@ -45,3 +45,29 @@ font-family: "Lato", sans-serif;
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+.section-box-main {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: 4px solid #0a0909;
+  padding-top: 70px;
+  overflow: hidden;
+  margin: 0 auto;
+
+  width: 1200px;
+  clear: both;
+}
+.box-left{
+  width: 400px;
+  float: left;
+  border: 1px solid black;
+
+}
+.box-right{
+  width: 780px;
+  float: right;
+  margin-right: 20px;
+  border: 1px solid black;
+}
+.title {
+  color: #007bff;
+}
